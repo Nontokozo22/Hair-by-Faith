@@ -1,0 +1,26 @@
+.container{
+    
+    text-align: center;
+}
+.header{
+    background-color: aliceblue;
+    border: 8px solid white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    
+}
+.service{
+    background-color: aqua;
+    padding: 10px;
+    margin: 30px;
+}
+.service-details{
+    background-attachment: white;
+}
+footer{
+    text-align: center;
+    padding: 30px 20px ;
+    color: white;
+    background-color: black;
+    margin: 30px;
+}
