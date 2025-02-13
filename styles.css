@@ -1,0 +1,59 @@
+.container{
+    
+    text-align: center;
+}
+.header{
+    background-color: aliceblue;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+        
+}
+.service{
+    background-color: ghostwhite;
+    padding: 10px;
+    margin: 30px;
+}
+.service-details{
+    background-attachment: white;
+}
+footer{
+    text-align: center;
+    padding: 30px 20px ;
+    color: white;
+    background-color: black;
+    margin: 30px;
+}
+
+.booking{
+    background-color: var(--primary-color);
+}
+
+.booking__container form{
+ max-width: 350px;
+ margin: auto;
+ display: grid ;
+ gap: 2rem;
+}
+
+.input__group{
+    display: grid;
+    gap: 1rem;
+
+}
+
+.input__group input{
+width: 100%;
+font-size: 1rem;
+padding: .5rem;
+color: var(--white);
+background-color: transparent;
+border: none;
+border-bottom: 1px solid var(--text-light);
+border-radius:5px ;
+}
+
+.input__group input::placeholder{
+    color: var(--text-light);
+
+}
