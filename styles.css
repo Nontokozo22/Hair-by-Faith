@@ -9,6 +9,7 @@ body{
 .container{
     
     text-align: center;
+    
 }
 .header{
     background-color: black;
@@ -22,11 +23,32 @@ body{
     background-color: ghostwhite;
     padding: 10px;
     margin: 30px;
+   
 }
 .service-details{
     background-attachment: white;
+    list-style: none; 
+    margin-block: 4rem; 
+    display: grid;
+    gap: 1rem 4rem;
+}
+.service-details li{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
 }
 
+.service-details li:hover{
+  background-color: paleturquoise;  
+}
+
+.service-details img{
+    max-width: 100px;
+    border-radius: 2px;
+
+}
 
 .booking{
     background-color: var(--primary-color);
@@ -36,7 +58,8 @@ body{
  max-width: 350px;
  margin: auto;
  display: grid ;
- gap: 2rem;
+ gap: 1rem;
+ padding-top: 80px;
 }
 
 .input__group{
