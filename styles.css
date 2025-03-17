@@ -31,11 +31,7 @@ body{
    
 }
 .service-details{
-    background-attachment: white;
-    list-style: none; 
-    margin-block: 4rem; 
-    display: grid;
-    gap: 1rem 4rem;
+    display: flexbox;
 }
 .service-details li{
    display: flex;
@@ -45,7 +41,7 @@ body{
    transition: 0.3s;
 }
 
-.service-details li:hover{
+.age-group hover{
   background-color: white; 
 }
 
@@ -59,12 +55,12 @@ body{
     background: #ffd7e9;
 }
 
-.booking__container form{
- max-width: 350px;
+.booking__container fieldset{
+ max-width: 250px;
  margin: auto;
  display: grid ;
- gap: 1rem;
- padding-top: 80px;
+ gap: 0rem;
+ padding-top: 20px;
 }
 
 .input__group{
