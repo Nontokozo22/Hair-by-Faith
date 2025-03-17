@@ -33,20 +33,7 @@ rel="stylesheet"
   
 
 
-<fieldset>
-    <legend>Personal Information</legend>
-    <div><label for="fname">First name</label></div>
-    
-     <input type="text" id="fname" name="fname"> <br>
-     <div><label for="lname">Last name</label></div>
-     <input type="text" id="lname" name="lname"> <br>
-     <label for="contact">Contact details</label>
-     <input type="number" minlength="10" > <br>
-     <label for="date">Select date</label>
-     <input type="date" id="date" name="date">
-     
-   
-</fieldset>
+
   
     <ul class="service-details">
         <li>
@@ -57,7 +44,7 @@ rel="stylesheet"
         </li>
      
     <li>
-     <img src="assets/Style free hand.jpg" alt="" class="style-type">
+     
      <div class="service-details"> 
       <h3>FREE HAND</h3>
     
@@ -73,7 +60,7 @@ rel="stylesheet"
 
   
     <li>
-    <img src="assets/Pondo with weave.jpg" alt="" class="style-type"> 
+   
     <div class="service-details">  
        <h3>PONDO</h3>
     <span><strong>Average time:</strong>45 minutes</span><br>
@@ -84,7 +71,7 @@ rel="stylesheet"
     </div> 
 </li>
     <li>
-<img src="assets/Straight up 2.jpg" alt="" class="style-type">
+
 <div class="service-details">
       <h3>STRAIGHT UP</h3>
     <span><strong>Average time: </strong>3 hours</span><br>
@@ -98,7 +85,7 @@ rel="stylesheet"
 </li>
 
     <li>
-     <img src="assets/Straightback style.jpg" alt="" class="style-type">  
+     
      <div class="service-details">  
        <h3>STRAIGHT BACK</h3>
     <span>Kids </span><br>
@@ -111,7 +98,7 @@ rel="stylesheet"
     </div>
 </li>
     <li>
-        <img src="assets/Half cornrows half braids.jpg" alt="" class="style-type">
+       
         <div class="service-details">
       <h3>HALF CONRROW HALF BRAIDS</h3>
     <span>Kids </span><br>
@@ -123,7 +110,7 @@ rel="stylesheet"
     </div>
 </li>
     <li>
-    <img src="assets/Knotless braids with curls.jpg" alt="" class="style-type">
+   
     <div class="service-details">   
         <h3>KNOTLESS BRAIDS</h3>
     
@@ -139,7 +126,7 @@ rel="stylesheet"
 </li>
 
     <li>
-     <img src="assets/Kiddies long knotless braids.jpg" alt="" class="style-type">   
+     
      <div class="service-details">
      <h3>NORMAL BRAIDS</h3>
     <span>Kids</span><br>
@@ -154,7 +141,7 @@ rel="stylesheet"
 </li>
 
     <li>
-     <img src="assets/Faux locks.jpg" alt="" class="style-type">
+    
      <div class="service-details">
        <h3>FAUX LOCKS</h3>
     <span>Adults</span><br>
@@ -168,43 +155,69 @@ rel="stylesheet"
 </ul>
 <section class="booking">
     <div class="section__container booking__container" >
-        <form action="/">
-            <div class="input__group">
+      
+        <fieldset>
+    <legend>Personal Information</legend>
+     <div class="input__group">
                 <label for="day">Styling day</label>
                 <input type="date" >
                 
             </div>
-            <div class="input__group">
-                <label for="hairStyle">Hair style</label>
-                <select id="hair-service">
-                    <option value=""></option>
-                    <option value="freehand">Free hand</option>
-                    <option value="needle">Needle</option>
-                    <option value="pondo">Pondo</option>
-                    <option value="straightup">Straight up</option>
-                    <option value="straightback">Straight back</option>
-                    <option value="halfhalf">Half cornrows half braids</option>
-                    <option value="knotlessbraids">Knotless braids</option>
-                    <option value="braids">Normal braids</option>
-                    <option value="fauxlocks">Faux locks</option>
-                    
-                </select>
-              
-            </div>
-            <div class="input__group">
-                <label for="wash">Wash</label>
-                <select  id="hairwash">
-                    <option value=""></option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
-                </select>
-              
-            </div>
-            <button class="btn">Book now</button>
-        </form>
+    <div><label for="fname">First name</label></div>
+    
+     <input type="text" id="fname" name="fname"> <br>
+     <div><label for="lname">Last name</label></div>
+     <input type="text" id="lname" name="lname"> <br>
+     <label for="contact">Contact details</label> <br>
+     <input type="number" minlength="10" > <br>
+     <div class="input__group">
+        <label for="hairStyle">Hair style</label>
+        <select id="hair-service">
+            <option value=""></option>
+            <option value="freehand">Free hand</option>
+            <option value="needle">Needle</option>
+            <option value="pondo">Pondo</option>
+            <option value="straightup">Straight up</option>
+            <option value="straightback">Straight back</option>
+            <option value="halfhalf">Half cornrows half braids</option>
+            <option value="knotlessbraids">Knotless braids</option>
+            <option value="braids">Normal braids</option>
+            <option value="fauxlocks">Faux locks</option>
+            
+        </select>
+      
     </div>
-</section>
+    <div class="input__group">
+        <label for="wash">Wash</label>
+        <select  id="hairwash">
+            <option value=""></option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+     
+        <button class="btn">Book now</button>
+   
+</fieldset>
+    </div>
+   
 
+    <div class="styleGallery" id="styleImage">
+    <img src="assets/" alt="" class="style-type">   
+    <img src="assets/" alt="" class="style-type">   
+    <img src="assets/" alt="" class="style-type">
+    <img src="assets/" alt="" class="style-type">
+    <img src="assets/" alt="" class="style-type">  
+    <img src="assets/" alt="" class="style-type"> 
+    <img src="assets/" alt="" class="style-type">
+</div>
+</section>
+ <div>
+      <h2>Our policy</h2> 
+      <p>We require you to make a booking at least 24 hours before. You can come with freshly washed hair or we will wash your hair for a fee of R40. Please keep to the agreed time <br>
+        Attach a picture of the hairstyle you want when booking <br>
+    <h4>Cancellation policy</h4>
+You can cancel your appoint at least 4 hours before your appointment </p> 
+    </div>
  
 <footer>
    
