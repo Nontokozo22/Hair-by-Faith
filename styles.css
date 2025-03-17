@@ -21,35 +21,28 @@ body{
     color: white;
         
 }
-.service{
-   
+
+.service{ 
     padding: 5px;
     margin: 20px auto;
     border-radius: 10px;
-    background-color: #ffd8d8;
-
-   
+    background-color: #ffd8d8;   
 }
+
 .service-details{
-    display: flexbox;
-}
-.service-details li{
-   display: flex;
-   align-items: center;
-   gap: 1rem;
-   cursor: pointer;
-   transition: 0.3s;
-}
-
-.age-group hover{
-  background-color: white; 
-}
-
-.service-details img{
-    max-width: 100px;
-    border-radius: 2px;
+  
+  padding: 10px;
 
 }
+.service-detail .adults{
+    text-align: justify;
+}
+.service-detail .kiddies{
+    text-align: justify;
+}
+
+
+
 
 .booking{
     background: #ffd7e9;
