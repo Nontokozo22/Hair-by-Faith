@@ -30,9 +30,22 @@ body{
 }
 
 .service-details{
-  
-  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.price-list-table{
+    width: 100%;
+}
 
+.price-list-table th{
+    background-color: transparent;
+    border: none;
+}
+
+.price-list-table th, .price-list-table td{
+    border: none;
+    padding: 5px;
+    text-align: left;
 }
 .service-detail .adults{
     text-align: justify;
