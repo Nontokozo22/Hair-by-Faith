@@ -37,21 +37,39 @@ body{
     width: 100%;
 }
 
+.kids{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px ;
+    width: 45%;
+}
+.adults{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px ;
+    width: 45%; 
+}
+
+.kids h2{
+    margin-top: 0;
+}
+
+.adults h2{
+    margin-top: 0;
+}
+
+.price-list-table{
+    width: 100%;
+}
 .price-list-table th{
     background-color: transparent;
     border: none;
 }
 
-.price-list-table th, .price-list-table td{
+.price-list-table td{
     border: none;
     padding: 5px;
-    text-align: left;
-}
-.service-detail .adults{
-    text-align: justify;
-}
-.service-detail .kiddies{
-    text-align: justify;
+    
 }
 
 .adult-hairstyle{
