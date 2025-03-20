@@ -54,8 +54,13 @@ body{
     text-align: justify;
 }
 
+.adult-hairstyle{
+    position: relative;
+}
 
-
+.adult-hairstyle:hover .adult-hairstyle-info{
+    display: block;
+}
 
 .booking{
     background: #ffd7e9;
