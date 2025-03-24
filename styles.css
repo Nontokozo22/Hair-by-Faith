@@ -72,14 +72,21 @@ body{
     
 }
 
-.adult-hairstyle{
+.hairstyle{
     position: relative;
 }
 
-.adult-hairstyle:hover .adult-hairstyle-info{
+ .hairstyle-info{
     display: block;
 }
-
+.hairstyle:hover{
+    color: aqua;
+   
+}
+.hairstyle:hover .hairstyle-info{
+    display: block;
+    z-index: 1;
+}
 .hairstyle-info{
     display: none;
     position: absolute;
