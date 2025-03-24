@@ -1,69 +1,27 @@
-body{
-    
-    font-family: "Source Sans 3", serif;
-    font-optical-sizing: auto;
-    font-weight: 300px;
-    font-style: normal;
-    background-color: whitesmoke;
-  }
-
-.container{
-    
-    text-align: center;
-    
-}
-.header{
-   
-    background-color:#ffd8d8;
-    border: 1px  white;
-    border-radius: 10px;
-    padding-bottom: 10px;
-    color: white;
-        
+body {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
 }
 
-.service{ 
-    padding: 5px;
-    margin: 20px auto;
-    border-radius: 10px;
-    background-color: #ffd8d8;   
+.container {
+  text-align: center;
 }
-
-.service-details{
-  display: flex;
-  justify-content: space-around;
+.header {
+  background-color: black;
+  border: 5px solid white;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  color: white;
 }
-.price-list-table{
-    width: 100%;
+.service {
+  background-color: ghostwhite;
+  padding: 10px;
+  margin: 30px;
 }
-
-.kids{
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px ;
-    width: 45%;
-}
-.adults{
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px ;
-    width: 45%; 
-}
-
-.kids h2{
-    margin-top: 0;
-}
-
-.adults h2{
-    margin-top: 0;
-}
-
-.price-list-table{
-    width: 100%;
-}
-.price-list-table th{
-    background-color: transparent;
-    border: none;
+.service-details {
+  background-attachment: white;
 }
 
 .price-list-table td{
@@ -72,21 +30,14 @@ body{
     
 }
 
-.hairstyle{
+.adult-hairstyle{
     position: relative;
 }
 
- .hairstyle-info{
+.adult-hairstyle:hover .adult-hairstyle-info{
     display: block;
 }
-.hairstyle:hover{
-    color: aqua;
-   
-}
-.hairstyle:hover .hairstyle-info{
-    display: block;
-    z-index: 1;
-}
+
 .hairstyle-info{
     display: none;
     position: absolute;
@@ -102,45 +53,41 @@ body{
     background: #ffd7e9;
 }
 
-.booking__container fieldset{
- max-width: 250px;
- margin: auto;
- display: grid ;
- gap: 0rem;
- padding-top: 20px;
+.booking__container form {
+  max-width: 350px;
+  margin: auto;
+  display: grid;
+  gap: 2rem;
 }
 
-.input__group{
-    display: grid;
-    gap: 1rem;
-
+.input__group {
+  display: grid;
+  gap: 1rem;
 }
 
-.input__group input{
-width: 100%;
-font-size: 1rem;
-padding: .5rem;
-color: var(--white);
-background-color: transparent;
-border: none;
-border-bottom: 1px solid var(--text-light);
-border-radius:5px ;
+.input__group input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--white);
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-light);
+  border-radius: 5px;
 }
 
-.input__group input::placeholder{
-    color: var(--text-light);
-
+.input__group input::placeholder {
+  color: var(--text-light);
 }
-.style-type{
-    height: 40%;
-    object-fit: contain;
-    box-shadow: 5px 5px 20px rgba(0, 0,0,0.2);
-
+.style-type {
+  height: 100%;
+  object-fit: contain;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
-footer{
-    text-align: center;
-    padding: 20px 10px 5px ;
-    color: black;
-    background: #ffcece;
-    margin: 30px 0 0 0;
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  color: white;
+  background-color: grey;
+  margin: 30px;
 }
