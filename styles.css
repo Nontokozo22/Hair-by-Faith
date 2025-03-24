@@ -30,12 +30,13 @@ body {
     
 }
 
-.adult-hairstyle{
+.hairstyle{
     position: relative;
 }
 
-.adult-hairstyle:hover .adult-hairstyle-info{
+.hairstyle:hover .hairstyle-info{
     display: block;
+    color: blue;
 }
 
 .hairstyle-info{

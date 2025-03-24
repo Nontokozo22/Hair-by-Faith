@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hair Salon Price List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="price-list">
+<div class="price-list-column">
+<h2>Adults' Hairstyles</h2>
+<table class="price-list-table">
+<tr>
+<th>Hairstyle</th>
+<th>Price</th>
+</tr>
+<tr>
+<td class="hairstyle" data-average-time="30 minutes" data-short-price="R100" data-long-price="R150">Cut & Style</td>
+<td>R150</td>
+</tr>
+<tr>
+<td class="hairstyle" data-average-time="1 hour" data-short-price="R200" data-long-price="R300">Colour & Highlights</td>
+<td>R300</td>
+</tr>
+<tr>
+<td class="hairstyle" data-average-time="2 hours" data-short-price="R400" data-long-price="R600">Extensions</td>
+<td>R500</td>
+</tr>
+</table>
+</div>
+<div class="price-list-column">
+<h2>Kids' Hairstyles</h2>
+<table class="price-list-table">
+<tr>
+<th>Hairstyle</th>
+<th>Price</th>
+</tr>
+<tr>
+<td class="hairstyle" data-average-time="20 minutes" data-short-price="R50" data-long-price="R100">Kids' Cut & Style</td>
+<td>R80</td>
+</tr>
+<tr>
+<td class="hairstyle" data-average-time="45 minutes" data-short-price="R150" data-long-price="R250">Kids' Colour & Highlights</td>
+<td>R200</td>
+</tr>
+<tr>
+<td class="hairstyle" data-average-time="1.5 hours" data-short-price="R250" data-long-price="R400">Kids' Extensions</td>
+<td>R350</td>
+</tr>
+</table>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
