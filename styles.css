@@ -24,10 +24,12 @@ body {
   background-attachment: white;
 }
 
-.price-list-table td{
-    border: none;
+.price-list {
     padding: 5px;
     
+}
+ul{
+  list-style: none;
 }
 
 .hairstyle{
