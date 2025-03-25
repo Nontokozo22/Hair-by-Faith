@@ -26,12 +26,29 @@ body {
 
 .price-list {
     padding: 5px;
-    
+     
 }
+
+
+.bookButton{
+  padding: 8px 20px;
+  margin: 20px;
+  border: black;
+  border-radius: 18px;
+}
+
+
 ul{
   list-style: none;
 }
 
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
 .hairstyle{
     position: relative;
 }
