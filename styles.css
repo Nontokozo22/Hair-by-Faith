@@ -45,22 +45,8 @@ ul{
   border-bottom: 1px solid #ccc;
 }
 
-
-.hairstyle:hover .hairstyle-info{
-    display: block;
-    color: blue;
-}
-
-.hairstyle-info{
-    display: none;
-    position: absolute;
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 200px;
-}
-
-.hairstyle-info p{
-    margin-bottom: 10px;
+.styleGallery h2{
+  text-align: center;
 }
 
 
