@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const prevButton = document.querySelector('.gallery-arrow.prev');
     const nextButton = document.querySelector('.gallery-arrow.next');
     const slides = document.querySelectorAll('.gallery-slide');
+
     let currentIndex = 0;
 
     function scrollToSlide(index) {
