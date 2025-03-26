@@ -3,14 +3,15 @@ body {
   font-optical-sizing: auto;
   font-weight: 300px;
   font-style: normal;
+  background-color: #C19770;
 }
 
 .container {
   text-align: center;
 }
 .header {
-  background-color: black;
-  border: 5px solid white;
+  background-color: #A67A5B;
+  border: 1px solid white;
   border-radius: 10px;
   padding-bottom: 10px;
   color: white;
@@ -21,7 +22,7 @@ body {
   display: grid;
   grid-template-columns: 0fr 0fr;
   gap: 10px 300px;
-  padding: 80px;
+  padding: 100px;
 }
 
 .bookButton{
@@ -52,7 +53,7 @@ ul{
 #gallery{
   padding: 40px 20px;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #D5B895;
 }
 
 .styleGallery{
@@ -94,7 +95,7 @@ ul{
   background: none;
   border: none;
   font-size: 24px;
-  color: #555;
+  color: #d4a24e;
   cursor: pointer;
   padding: 10px;
   opacity: 0.7;
@@ -127,7 +128,6 @@ ul{
 footer {
   text-align: center;
   padding: 30px 20px;
-  color: white;
-  background-color: grey;
-  margin: 30px;
+  background-color: #faf0dc;
+  margin: 1px;
 }
